@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body{
+  margin:0;
+  background-image:url("https://cdn.dribbble.com/users/212502/screenshots/10200732/media/afdc279b017eea6a11b9e8a9a75b5dfe.png?compress=1&resize=400x300");
+  font-family: 'Noto Serif', serif;
+}
+:root{
+  --primary-color:#12232E;
+  --secondary-color:#007CC7;
+}
+
+.tb{
+  color:var(--secondary-color);
+  padding:2rem 1.5rem 1rem 1.5rem;
+  font-size:1.5rem;
+}
+.sec{
+  text-align:center;
+  background-color:var(--primary-color);
+  width:100%;
+  max-width:450px;
+  margin:auto;
+  padding:1.8rem 1rem;
+  min-height:150px;
+}
+h1{
+  color:white;
+}
+p{
+  color:white;
+}
+button{
+  border: 2px solid black;
+  background-color:var(--secondary-color);
+  font-weight:bold;
+  font-size:1.3rem;
+  padding:0.5rem 0.5rem;
+  display:block;
+  margin:1.2rem auto 0 auto;
+  cursor:pointer;
+}
+input{
+  display:block;
+  padding:1rem;
+  width:90%;
+  text-align:center;
+  height:40px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+#error1{
+  color:white;
+  padding:1rem;
+}
+#op{
+  margin:1rem 0 1rem 0;
+}
+
+table,th,td{
+  border:1.5px solid var(--primary-color);
+  background-color:var(--secondary-color);
+  padding:0.3rem;
+  border-collapse:collapse;
+}
+.noofNotes{
+  font-weight:bold;
+  background-color:white;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+th,td{
+    word-wrap: break-word;
+}
+.change,.CashGiven{
+  display:none;
+}
+li{
+  list-style:none;
+  display:inline-block;
+  padding:0.5rem; 
+}
+footer{
+  max-width:500px;
+  max-height:95px;
+  margin:auto;
+  margin-left:37%;
+  margin-top:5%;
+}
